@@ -10,7 +10,7 @@ RUN apt-get update && \
 # Install php extensions
 RUN docker-php-ext-install bcmath gd mysqli pgsql zip
 
-# Download FacturaScripts
+# Download MaInKiVi's web
 ADD https://mainkivi.info/html.zip /tmp/
 
 # Untar
